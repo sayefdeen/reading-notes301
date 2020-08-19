@@ -10,3 +10,7 @@ You can click on each course to get the Repo for it.
 ## - [Code 301](https://github.com/sayefdeen/reading-notes301) - Intermediate Software Development
 
 ## - Code 401 - Advanced Software Development
+
+| Days |   Date    |   Name   |                              Links                               |
+| :--: | :-------: | :------: | :--------------------------------------------------------------: |
+| Day1 | 19/8/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes301class-01) |
