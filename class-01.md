@@ -111,3 +111,37 @@ canvas {
 ```
 
 The code upove will make the media scalable by using the `max-width` properity, Doing this to ensure that as the iewport get smaller any media will scale down according to its container width.
+
+---
+
+## Float
+
+Float is a CSS positioning property, in page layout programs, the boxes that hold the text can be told to honer the text wrap, or to ignore it. Ignoring the text wrap will allow the words to flow right over the image like it wasn't even there. This is the difference between that image being part of the flow of the page/or not. _Web designe is very similar_.
+
+Float is different form the position property, Float keeps the element in the same flow of the page which means that the other elements will be affected by it, on the other hand the position (absolute/relative) will remove the element from the flow of the page, which means other elemens will never be affected by it regadless if they touch it or not.
+
+There are four valid values for the float porperty, **Left** and **Right**, **None** (the default) ensure the element will not float, and **Inherit** which will assume the float value from that elements parent element.
+
+## Clearing the Float.
+
+An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float.
+
+Clear has four values as well, **Both** is most commonly used which clears floats comming from either dierction repectibely, **None** is the default, which is typically unnecessary unless remiving a clear calue from a cascade, **Inherite** would be the fifth, but is strangely not supported in Internet Explorer. Clearing only the left or right float, while less commonly seen in the wild, definitely has its uses.
+
+## Ways To Clear Foat
+
+- **The Empty Div Method** : is a quite literally, an empty div `<div style="clear:both;"></div>`, div is used because it has no browser default styling, doesn't have any special function, and is unlikely to generically styled with CSS.
+
+- **The Overflow Method** : relies on setting the overflow CSS property on a parent element, If this property is set to auto or hidden on the parent element, the parent will expand to contain the floats, effectively clearing it for succeeding elements.
+
+- **The Easy Clearing Method** : uses a clever CSS pseudo selector (:after) to clear floats. Rather than setting the overflow on the parent, you apply an additional class like “clearfix” to it. Then apply this CSS.
+
+```css
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+```
