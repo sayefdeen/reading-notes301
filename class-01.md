@@ -1,5 +1,7 @@
 # Read-01 Respoonsive web design and floats.
 
+[Home](https://sayefdeen.github.io/reading-notes301/)
+
 ## Responsive Web Design
 
 Responsive web designe is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile of desktop.
@@ -46,3 +48,66 @@ There are a couple different ways to use media queries, using the `@media` rule 
   ...;
 }
 ```
+
+Each media query may include a media type followed by one or more expression, Common media types include `all,screen,print,tv,braille`. The HTML5 specification includes new media types, even including 3d-glasses. Should a media type not be specified the media query will default the media type to `screen`.
+
+## Logical Operators in Media Queries.
+
+Logical operators in media queries help build powerful expressions. There are three different logical operators available for use within media queries, including `and`, `not`, and `only`.
+
+## Viewport.
+
+Mobile devices generally do a pretty decent job of displaying websites these days. Sometimes they could use a little assistance though, particularly around identifying the viewport size, scale, and resolution of a website. To remedy this, Apple invented the viewport `meta` tag.
+
+- Viewport Height and Width.
+
+Using the viewport meta tag with either the height of width values will define the heigth o width of the viewport respectively.
+
+```html
+<!-- Takes the device width -->`
+<meta name="viewport" content="width=device-width" />
+```
+
+- Viewport Scale.
+
+To control how a website is scaled on a moblie device, and how users can continue to scale a website, use the `minimum-scale, maximum-scale, initial-scale` and `user-scalable` properties, Values if `initial-scale` should always be a positive integer between 0 and 10.
+
+```html
+<meta name="viewport" content="initial-scale=2" />
+<meta name="viewport" content="minimum-scale=0" />
+```
+
+Turning off the ability to scale a website is a **bad idea**. It harms accessibility and usability, preventing those with disabilities from viewing a website as desired.
+
+Note: You can combine more than one viewport content in the same `meta` tag.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+
+### CSS Viewport Rule.
+
+Since the `viewport` meta tag revolves so heavily around setting the style of how a website should be rendered it has been recommend to move the viewport from a meta tag with HTML to an `@` rule within CSS.
+
+Currently some browsers have already implemented the `@viewport rule, however support isn't great across the board, The previously recommended`viewport` meta tag would look like this.
+
+```css
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+```
+
+## Flexible Media.
+
+The final, equally important aspect to responsive web design involves flexible media. As viewports begin to change size media doesn’t always follow suit. Images, videos, and other media types need to be scalable, changing their size as the size of the viewport changes.
+
+```css
+img,
+video,
+canvas {
+  max-width: 100%;
+}
+```
+
+The code upove will make the media scalable by using the `max-width` properity, Doing this to ensure that as the iewport get smaller any media will scale down according to its container width.
