@@ -15,3 +15,4 @@ You can click on each course to get the Repo for it.
 | :--: | :-------: | :------: | :---------------------------------------------------------------: |
 | Day1 | 19/8/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes301/class-01) |
 | Day2 | 23/8/2020 | class-02 | [class-02](https://sayefdeen.github.io/reading-notes301/class-02) |
+| Day2 | 24/8/2020 | class-03 | [class-03](https://sayefdeen.github.io/reading-notes301/class-03) |
