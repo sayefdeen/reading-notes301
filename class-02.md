@@ -89,3 +89,64 @@ In jQuery, when a selector return multiple elements, you can update all of them 
 - `.removeClass()` : This method removes a value from the class attribute leaving ant other class names within that attribute intact.
 
 - `.css()` : This method can get of set any CSS properties.
+
+- `.each()` : Allows you to perform one or more statments on each of the items in the selection of elements that is returned by a selector, rather than looping with JavaScript.
+
+```javascript
+$("li").each(function () {
+  var ids = this.id;
+  $("this").append('<em class="order">' + ids + "</em");
+});
+```
+
+`this` keyword refer to the selected element(s).
+
+### Event Methods
+
+```javascript
+$("li").on("click", function () {
+  $(this).addClass("complete");
+});
+```
+
+- The jQuery selection contains all of the `<li>` elements.
+
+- The `.on()` method is used to handle events. it needs two parameters.
+
+- The first parameter is the event you want to respond to , Here it is the click event.
+
+- The second parameter is the code you want to run when that event occurs on any element in the matched set, This could be named function or an anonymous function, or we can use arrow function.
+
+**Event Object** : Every elment handling function receives an event object, It has methods and properties related related to the event that occurred.
+
+```javascript
+$("li").on("click", function (e) {
+  eventType = e.type;
+});
+```
+
+- Give the event object a parameter name.
+- Use that name in the function to reference the event object
+- Access the properties and methods of the object using the familiar dot notation ( the member operator).
+
+---
+
+## Pair Programming.
+
+Pair programming is the practice of two developers sharing a single workstation to interactively tackle a coding task together.
+
+Pair programming involves two roles : The Driver and the Navigator. **The Driver** is the programmer who is typing and the only one whose hands are on the keyboard. **The Navigator** uses their words to guide the driver but dose not provide ant direct input to the computer.
+
+### Why pair programming?
+
+- **Greater efficiency** : when ttwo people focus on the same code base, it is easier to catch mistakes in the making, it takes slightly longer, but produces higher-quality code that dosen't require later effort in roubleshooting and debugging (let alone exposing users to a broken product).
+
+- **Engaged collaboration** : When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone.
+
+- **Learning from fellow students** : Everyone has a different approach to problem solving; working with a teammate can expose developers to techniques they otherwise would not have thought of. If one developer has a unique approach to a specific problem, pair programming exposes the other developer to a new solution.
+
+- **Social skills** : Pair programming is great for improving social skills. When working with someone who has a different coding style, communication is key. This can become more difficult when two programmers have different personalities.
+
+- **Job interview readiness** : A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen.
+
+- **Work environment readiness** : Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product.
