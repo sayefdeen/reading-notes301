@@ -72,3 +72,35 @@ The application fields of regex can be multiple such as :
 6. Syntax Highlightning.
 
 ---
+
+## Grid display.
+
+CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
+
+[Complete Guid To Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+
+1.  Parent Elements (Grid Container).
+
+    - `display : grid | inline-grid `:
+
+      - grid : generate a block-level grid
+
+      - inline-grid : generate an inline-level grid.
+
+    - `grid-template-columns : [Name] value`
+    - `grid-template-row : [Name] value` :
+
+      - [Name] : an artbitrary name of your choosing
+
+      - value : can be a length, a percentage , or a fraction of the free space in the grid (using `fr` unit).
+
+    - `column-gap | row-gap ` : Specifies the size of the grid lines. You can think of it like setting the width of the gutters between the columns/rows.
+
+2.  Children Elements (Grid Items).
+    Note : float, display: inline-block, display: table-cell, vertical-align and column- properties have no effect on a grid item
+
+        * `grid-column-start | grid-column-end | grid-row-start | grid-row-end` : Determines a grid item’s location within the grid by referring to specific grid lines
+
+        * `justify-self` : Aligns a grid item inside a cell along the inline (row) axis (as opposed to align-self which aligns along the block (column) axis). This value applies to a grid item inside a single cell.
+
+        * `align-self` : Aligns a grid item inside a cell along the block (column) axis (as opposed to justify-self which aligns along the inline (row) axis). This value applies to the content inside a single grid item.
