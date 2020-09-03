@@ -11,14 +11,15 @@ You can click on each course to get the Repo for it.
 
 ## - Code 401 - Advanced Software Development
 
-| Days |   Date    |   Name   |                               Links                               |
-| :--: | :-------: | :------: | :---------------------------------------------------------------: |
-| Day1 | 19/8/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes301/class-01) |
-| Day2 | 23/8/2020 | class-02 | [class-02](https://sayefdeen.github.io/reading-notes301/class-02) |
-| Day3 | 24/8/2020 | class-03 | [class-03](https://sayefdeen.github.io/reading-notes301/class-03) |
-| Day4 | 25/8/2020 | class-04 | [class-04](https://sayefdeen.github.io/reading-notes301/class-04) |
-| Day5 | 26/8/2020 | class-05 | [class-05](https://sayefdeen.github.io/reading-notes301/class-05) |
-| Day6 | 29/8/2020 | class-06 | [class-06](https://sayefdeen.github.io/reading-notes301/class-06) |
-| Day6 | 30/8/2020 | class-07 | [class-07](https://sayefdeen.github.io/reading-notes301/class-07) |
-| Day6 | 31/8/2020 | class-08 | [class-08](https://sayefdeen.github.io/reading-notes301/class-08) |
-| Day6 | 1/9/2020  | class-09 | [class-09](https://sayefdeen.github.io/reading-notes301/class-09) |
+| Days  |   Date    |   Name   |                               Links                               |
+| :---: | :-------: | :------: | :---------------------------------------------------------------: |
+| Day1  | 19/8/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes301/class-01) |
+| Day2  | 23/8/2020 | class-02 | [class-02](https://sayefdeen.github.io/reading-notes301/class-02) |
+| Day3  | 24/8/2020 | class-03 | [class-03](https://sayefdeen.github.io/reading-notes301/class-03) |
+| Day4  | 25/8/2020 | class-04 | [class-04](https://sayefdeen.github.io/reading-notes301/class-04) |
+| Day5  | 26/8/2020 | class-05 | [class-05](https://sayefdeen.github.io/reading-notes301/class-05) |
+| Day6  | 29/8/2020 | class-06 | [class-06](https://sayefdeen.github.io/reading-notes301/class-06) |
+| Day7  | 30/8/2020 | class-07 | [class-07](https://sayefdeen.github.io/reading-notes301/class-07) |
+| Day8  | 31/8/2020 | class-08 | [class-08](https://sayefdeen.github.io/reading-notes301/class-08) |
+| Day9  | 1/9/2020  | class-09 | [class-09](https://sayefdeen.github.io/reading-notes301/class-09) |
+| Day10 | 2/9/2020  | class-10 | [class-10](https://sayefdeen.github.io/reading-notes301/class-10) |
