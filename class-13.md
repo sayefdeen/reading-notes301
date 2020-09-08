@@ -82,7 +82,7 @@ HTTP requests are never displayed to the user (if you want to see them, you need
 
 Each time you send data to a server, you need to consider security. HTML forms are by far the most common server attack vectors (places where attacks can occur). The problems never come from the HTML forms themselves — they come from how the server handles data.
 
-<p style="color:red; background-color:black; text-align: center; text-transform:uppercase  "> Be paranoid: Never trust your users.
+<p style="color:red; background-color:black; text-align: center; text-transform:uppercase  "> Be paranoid: Never trust your users.</p>
 
 All data that comes to your server must be checked and sanitized. Always. No exception.
 
