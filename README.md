@@ -26,5 +26,9 @@ You can click on each course to get the Repo for it.
 | Day11 | 5/9/2020  | class-11 | [class-11](https://sayefdeen.github.io/reading-notes301/class-11) |
 | Day12 | 7/9/2020  | class-12 | [class-12](https://sayefdeen.github.io/reading-notes301/class-12) |
 | Day13 | 8/9/2020  | class-13 | [class-13](https://sayefdeen.github.io/reading-notes301/class-13) |
+<<<<<<< HEAD
 | Day14 | 9/9/2020  | class-14 | [class-14](https://sayefdeen.github.io/reading-notes301/class14)  |
 | Day15 | 10/9/2020 | class-15 | [class-15](https://sayefdeen.github.io/reading-notes301/class-15) |
+=======
+| Day14 | 9/9/2020  | class-14 | [class-14](https://sayefdeen.github.io/reading-notes301/class14) |
+>>>>>>> 1232423e83b16c8f233f362f9a463731c45bccd0
